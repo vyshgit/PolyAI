@@ -1,0 +1,53 @@
+OPERATING SYSTEM
+
+An Operating System (OS) is a system software that acts as an interface between the user and the computer hardware. It controls the execution of programs and manages the resources of the computer. Without an operating system, a computer cannot be used efficiently.
+
+The main objectives of an operating system are convenience, efficiency, and ability to evolve. Convenience means making the computer easy to use. Efficiency means using system resources effectively. Ability to evolve means allowing the system to accept new functions without interfering with existing services.
+
+FUNCTIONS OF OPERATING SYSTEM
+
+The operating system performs several important functions to manage computer resources.
+
+Process Management:
+Process management involves the creation, scheduling, and termination of processes. A process is a program in execution. The operating system decides which process gets the CPU and for how long. It also handles process synchronization and communication.
+
+Memory Management:
+Memory management deals with the allocation and deallocation of main memory. The operating system keeps track of which parts of memory are in use and which are free. It ensures that processes do not interfere with each other’s memory space.
+
+File Management:
+File management includes creating, deleting, reading, and writing files. The operating system organizes files into directories and controls access permissions to protect data.
+
+I/O Device Management:
+The operating system manages input and output devices such as keyboard, mouse, printer, and disk drives. It uses device drivers to communicate with hardware and provides a uniform interface to applications.
+
+Security and Protection:
+Security ensures that unauthorized users do not access system resources. The operating system uses authentication methods like passwords and access control mechanisms to protect data.
+
+PROCESS
+
+A process is defined as a program in execution. It includes the program code, current activity, program counter, registers, and allocated resources. Multiple processes can exist at the same time, even for the same program.
+
+PROCESS STATES
+
+A process passes through different states during its lifetime.
+
+New State:
+The process is being created.
+
+Ready State:
+The process is loaded into memory and is waiting to be assigned to the CPU.
+
+Running State:
+The process is currently being executed by the CPU.
+
+Waiting or Blocked State:
+The process is waiting for some event to occur, such as completion of an input/output operation.
+
+Terminated State:
+The process has finished execution and is removed from the system.
+
+PROCESS CONTROL BLOCK (PCB)
+
+The Process Control Block is a data structure maintained by the operating system for each process. It contains information such as process state, program counter, CPU registers, memory management information, and scheduling information.
+
+The operating system uses the PCB to manage and control processes efficiently.
